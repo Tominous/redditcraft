@@ -31,7 +31,7 @@ auth:
     # since a user can verify their account while offline, the success or failure message is sent ambiently. if the user logs in within this expiry duration, they will see the result message.
     ambient-messages-expiry-days: 2
     # whether players' flairs on the subreddit are to be turned on after successfully having their reddit account verified (if false, their flair is set to off - only their username will show)
-    flair-on-after-success: false
+    flair-on-after-success: true
 
 
 # Subreddit Settings
